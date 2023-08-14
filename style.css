@@ -19,7 +19,12 @@ ul li {
   padding: 12px 8px 12px 40px;
   background: #eee;
   font-size: 18px;
+  -webkit-transition: 0.2s;
+  -o-transition: 0.2s;
   transition: 0.2s;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
   user-select: none;
 }
 
@@ -28,6 +33,5 @@ ul li:nth-child(odd) {
 }
 
 ul li:hover {
-
   background: #ddd;
 }
